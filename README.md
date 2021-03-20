@@ -1,12 +1,14 @@
 # nuxt-html2canvas-proxy
 
+[html2canvas](https://html2canvas.hertzen.com/) proxy using [html2canvas-proxy-nodejs](https://github.com/niklasvh/html2canvas-proxy-nodejs).
+
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> {{ description }}
+> Nuxt module for html2canvas proxy
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -24,12 +26,21 @@ yarn add nuxt-html2canvas-proxy # or npm install nuxt-html2canvas-proxy
 {
   modules: [
     // Simple usage
-    'nuxt-html2canvas-proxy',
+    'nuxt-html2canvas-proxy', /* default path is /_proxy */
 
     // With options
-    ['nuxt-html2canvas-proxy', { /* module options */ }]
-  ]
+    ['nuxt-html2canvas-proxy', { path: '/_proxy' /* change path for html2canvas proxy */ }]
+  ],
 }
+```
+
+3. Use with html2canvas
+
+```js
+html2canvas(document.querySelector('#image'), { useCORS: false, proxy: '/_proxy' })
+  .then((canvas) => {
+    document.body.appendChild(canvas)
+  })
 ```
 
 ## Development
