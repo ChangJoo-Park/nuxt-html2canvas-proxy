@@ -2,12 +2,13 @@
 
 [html2canvas](https://html2canvas.hertzen.com/) proxy using [html2canvas-proxy-nodejs](https://github.com/niklasvh/html2canvas-proxy-nodejs).
 
-> It doesn't have html2canvas, Please install html2canvas in your project.
 
 [![npm version][npm-version-src]][npm-version-href]
 [![License][license-src]][license-href]
 
 > Nuxt module for html2canvas proxy
+> 
+> It doesn't have html2canvas, Please install html2canvas in your project.
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
