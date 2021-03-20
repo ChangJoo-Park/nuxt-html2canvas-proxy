@@ -53,7 +53,7 @@ html2canvas(document.querySelector('#image'), { useCORS: false, proxy: '/_proxy'
 
 [MIT License](./LICENSE)
 
-Copyright (c) {{ author }}
+Copyright (c) ChangJoo Park
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-html2canvas-proxy/latest.svg
@@ -62,11 +62,11 @@ Copyright (c) {{ author }}
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-html2canvas-proxy.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxt-html2canvas-proxy
 
-[github-actions-ci-src]: https://github.com/{{ github }}/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/{{ github }}/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/changjoo-park/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/changjoo-park/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/{{ github }}.svg
-[codecov-href]: https://codecov.io/gh/{{ github }}
+[codecov-src]: https://img.shields.io/codecov/c/github/changjoo-park.svg
+[codecov-href]: https://codecov.io/gh/changjoo-park
 
 [license-src]: https://img.shields.io/npm/l/nuxt-html2canvas-proxy.svg
 [license-href]: https://npmjs.com/package/nuxt-html2canvas-proxy
